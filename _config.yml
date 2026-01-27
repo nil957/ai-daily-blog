@@ -3,23 +3,4 @@ description: 每日 AI 前沿资讯与深度解读
 author: AI Tech Observer
 baseurl: "/ai-daily-blog"
 url: "https://nil957.github.io"
-
-# 使用 GitHub Pages 内置主题（不需要额外插件）
-theme: jekyll-theme-minimal
-
-# Build settings
 markdown: kramdown
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "AI Tech Observer"
-
-# Exclude
-exclude:
-  - README.md
-  - LICENSE
