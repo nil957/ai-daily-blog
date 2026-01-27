@@ -1,6 +1,6 @@
 title: AI Daily Blog
 description: 每日 AI 前沿资讯与深度解读
-author: AI Tech Observer
+theme: minima
 baseurl: "/ai-daily-blog"
 url: "https://nil957.github.io"
 markdown: kramdown
