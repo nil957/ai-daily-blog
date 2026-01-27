@@ -1,11 +1,12 @@
 ---
-layout: home
+layout: default
 ---
 
-# 🤖 AI Daily Blog
+## 📰 最新文章
 
-每日 AI 前沿资讯与深度解读
+### [2026年1月27日 AI 资讯](posts/2026-01-27)
+Google DeepMind 收购 Hume AI、Grok 深度伪造危机、TRAIN 法案推进...
 
-## 📰 文章列表
+---
 
-- [2026年1月27日 AI 资讯](posts/2026-01-27)
+*每日更新，追踪 AI 前沿动态*
