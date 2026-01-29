@@ -3,3 +3,4 @@ description: 每日 AI 前沿资讯与深度解读
 theme: jekyll-theme-cayman
 baseurl: "/ai-daily-blog"
 url: "https://nil957.github.io"
+show_downloads: false
