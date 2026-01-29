@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.0/github-markdown.min.css">
+  <style>
+    body {
+      margin: 0;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+    }
+    .header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .header h1 {
+      margin: 0 0 10px 0;
+      font-size: 1.5em;
+    }
+    .header h1 a {
+      color: white;
+      text-decoration: none;
+    }
+    .header h1 a:hover {
+      text-decoration: underline;
+    }
+    .header .meta {
+      opacity: 0.9;
+      font-size: 0.95em;
+    }
+    .content-wrapper {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 40px;
+    }
+    .markdown-body {
+      background: white;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    }
+    .markdown-body h1:first-child {
+      display: none;
+    }
+    .markdown-body h2 {
+      border-bottom: 2px solid #667eea;
+      padding-bottom: 8px;
+    }
+    .markdown-body blockquote {
+      border-left: 4px solid #667eea;
+      background: #f8f9ff;
+      padding: 12px 16px;
+      margin: 16px 0;
+    }
+    .markdown-body a {
+      color: #667eea;
+    }
+    .back-link {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 10px 20px;
+      background: #667eea;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 500;
+    }
+    .back-link:hover {
+      background: #5a6fd6;
+    }
+    .footer {
+      text-align: center;
+      padding: 20px;
+      color: rgba(255,255,255,0.8);
+      font-size: 0.9em;
+    }
+    .footer a {
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+    <div class="meta">{{ page.date | date: "%Y年%m月%d日" }}</div>
+  </div>
+  
+  <div class="content-wrapper">
+    <article class="markdown-body">
+      <h1>{{ page.title }}</h1>
+      {{ content }}
+    </article>
+    
+    <a href="{{ site.baseurl }}/" class="back-link">← 返回首页</a>
+  </div>
+  
+  <div class="footer">
+    <p>{{ site.title }} · <a href="https://github.com/nil957/ai-daily-blog">GitHub</a></p>
+  </div>
+</body>
+</html>
