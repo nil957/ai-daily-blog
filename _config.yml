@@ -4,3 +4,4 @@ theme: jekyll-theme-cayman
 baseurl: "/ai-daily-blog"
 url: "https://nil957.github.io"
 show_downloads: false
+future: true
